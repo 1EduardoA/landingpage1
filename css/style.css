@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky{
+	background-color: rgba(255,255,255,1.00) !important;
+}
+
+.lista-redes a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+	background-color:rgba(0,0,0,1.00); 
+	display: block;
+	color: #fff;
+}
+.lista-redes li{
+	padding-right: 10px;
+}
+
+
+
+#intro{
+	background: rgba(255,255,255,1.00);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 10%;
+}
+#intro img.iphone{
+	width: 350px;
+	float: right;
+}
+#intro h2{
+	font-size: 35px;
+	font-weight: 300;
+}
+#intro p{
+	font-weight: 300;
+}
+
+
+#franja{
+	background-color:black;
+	text-align: center;
+	color: white;
+	padding: 40px 10px;
+}
+
+#franja2{
+	background-color:black;
+	text-align: center;
+	color: white;
+	padding: 40px 10px;
+}
+
+#franja3{
+	background-color:black;
+	text-align: center;
+	color: white;
+	padding: 40px 10px;
+}
+
+
+
+ h2{
+	font-weight: 600;
+	text-align: center !important;	
+}
+
+#web{
+	background-color: white;
+	padding: 50px 20px;
+	align-items: center;
+}
+
+
+#web h2{
+	color: red;
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	
+}
+
+#web h2::after{
+	content: '';
+	background-color:red;
+	width: 150px;
+	height: 2px;
+	display: block;
+	margin: 10px auto;
+	border-radius: 15px;
+}
+
+#app{
+	background-color: white;
+	padding: 50px 20px;
+	align-items: center;
+}
+
+
+#app h2{
+	color: red;
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	
+}
+
+#app h2::after{
+	content: '';
+	background-color:red;
+	width: 150px;
+	height: 2px;
+	display: block;
+	margin: 10px auto;
+	border-radius: 15px;
+}
+
+
+#produccion{
+	background-color: white;
+	padding: 50px 20px;
+	align-items: center;
+	margin-bottom: 90px;
+}
+
+
+#produccion h2{
+	color: red;
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	
+	
+}
+
+#produccion h2::after{
+	content: '';
+	background-color:red;
+	width: 150px;
+	height: 2px;
+	display: block;
+	margin: 10px auto;
+	border-radius: 15px;
+}
+
+
+
+.btn{
+   border-radius: 15px;
+	background-color: transparent;
+	letter-spacing: 1px;	
+	color: red;
+	border-color: red; 
+	text-align: center !important;
+	margin-left: 220px;
+}
+
+
+.btn-negro:hover{
+	background-color: black;
+}
+
+ footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+	 padding: 20px 15px;
+}
+
+#formulario{
+background:#fff; 
+clear:left; 
+font:14px Helvetica,Arial,sans-serif;
+}
+
+#Maximiza h1{
+	color:rgba(169,0,2,1.00);
+}
+
+
+#servicios h1{
+	font-size: 40px;
+	align-content: center;
+	color: rgba(169,0,2,1.00);
+	align-items: center;
+}
+
